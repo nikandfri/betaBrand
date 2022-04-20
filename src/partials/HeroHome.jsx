@@ -48,7 +48,7 @@ function HeroHome() {
               className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
               data-aos="zoom-y-out"
             >
-              Accelerate ideas{" "}
+              Accelerate innovation{" "}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-dnb-100 to-dnb-400">
                 with us
               </span>
@@ -69,7 +69,7 @@ function HeroHome() {
               >
                 <div>
                   <a
-                    className="btn text-white bg-dnb-200 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0"
+                    className="btn text-white bg-dnb-300 hover:bg-dnb-100 w-full mb-4 sm:w-auto sm:mb-0"
                     href="#0"
                   >
                     Contact us
@@ -179,7 +179,7 @@ function HeroHome() {
                 aria-controls="modal"
               >
                 <svg
-                  className="w-6 h-6 fill-current text-gray-400 group-hover:text-blue-600 flex-shrink-0"
+                  className="w-6 h-6 fill-current text-gray-400 group-hover:text-dnb-200 flex-shrink-0"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                 >
