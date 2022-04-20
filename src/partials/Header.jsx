@@ -25,7 +25,7 @@ function Header() {
           <div className="flex-shrink-0 mr-4">
             {/* Logo */}
             <Link to="/" className="block" aria-label="Cruip">
-              <svg
+              {/* <svg
                 className="w-8 h-8"
                 viewBox="0 0 32 32"
                 xmlns="http://www.w3.org/2000/svg"
@@ -44,14 +44,18 @@ function Header() {
                     <stop stopColor="#338CF5" offset="100%" />
                   </radialGradient>
                 </defs>
+                <img src="./src/images/dnbBrand.png" alt="fireSpot" />
                 <rect
                   width="32"
                   height="32"
                   rx="16"
-                  fill="url(#header-logo)"
+                  fill="./src/images/dnbBrand.png"
                   fillRule="nonzero"
                 />
-              </svg>
+              </svg> */}
+              <div className="w-12 h-12">
+                <img src="./src/images/dnbBrand.png" alt="fireSpot" />
+              </div>
             </Link>
           </div>
 
@@ -59,30 +63,6 @@ function Header() {
 
           <nav className="flex flex-grow">
             <ul className="flex flex-grow justify-end flex-wrap items-center">
-              <li>
-                <Link
-                  to="/signin"
-                  className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
-                >
-                  Projects
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/signin"
-                  className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
-                >
-                  Process
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/signin"
-                  className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
-                >
-                  Departments
-                </Link>
-              </li>
               <li>
                 <Link
                   to="/signup"
